@@ -1,0 +1,35 @@
+:root{
+    --primary-color:#1c93d2;
+    --secondary-color:#e3eaf1;
+    --tertiary-color:white;
+    --forth-color:#e1b232;
+}
+
+aside img[src $= ".svg"],header img[src $= ".svg"],section img[src $= ".svg"]{
+    width: 25px;
+    height: auto;
+}
+
+.dashboardImg{
+    width: 50px !important;
+    height: auto !important;
+}
+
+aside{
+    background-color: var(--primary-color);
+}
+
+header{
+    background-color: var(--tertiary-color);
+}
+
+section{
+    background-color: var(--secondary-color);
+}
+
+
+
+
+
+
+
