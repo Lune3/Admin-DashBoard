@@ -145,6 +145,29 @@ input{
     padding: 0;
 }
 
+.searchBox + div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.greetingBox{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 25px;
+}
+
+.greetingBox + div{
+    display: flex;
+    gap: 25px;
+}
+
+button{
+    align-self: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+}
+
 
 
 
