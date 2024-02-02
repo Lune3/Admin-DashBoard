@@ -95,6 +95,11 @@ section{
 }
 
 img:not(.profileImg){
+    height: 50px;
+    width: auto;
+}
+
+.profileImg{
     height: 75px;
     width: auto;
 }
@@ -103,6 +108,43 @@ ul{
     list-style: none;
     padding: 0;
 }
+
+header{
+    padding-left: 40px;
+    padding-right: 75px;
+}
+
+.searchBox{
+    margin-top: 10px;
+    display: flex;
+}
+
+.searchBox div:first-child{
+    flex-grow: 1;
+    display: flex;
+    gap: 15px;
+}
+
+input{
+    width: 50%;
+    align-self: center;
+    border-radius: 12px;
+    height: 30px;
+    border: 1px var(--secondary-color) solid;
+    background-color: var(--secondary-color);
+}
+
+.searchBox div:nth-child(2){
+    display: flex;
+    gap: 25px;
+}
+
+.searchBox div:nth-child(2) h3{
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}
+
 
 
 
