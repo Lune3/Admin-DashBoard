@@ -194,18 +194,70 @@ section{
 .newPost ul{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(75px,45%));
-    gap: 50px;
+    gap: 25px;
 }
 
 .newPost li{
+    box-sizing: border-box;
     background-color: white;
-    padding: 25px;
+    padding: 30px 50px 0;
+    border-radius: 15px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-left: 10px var(--forth-color) solid;
+}
+
+.newPost li div{
+    align-self: flex-end;
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    
+}
+
+.newPost li h3,.newPost li p{
+    margin: 0;
 }
 
 .announcementsTab ul{
     background-color: white;
-    
+    padding: 20px;
 }
+
+.announcementsTab ul li{
+    box-sizing: border-box;
+}
+
+.announcementsTab p{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.trendingTab ul{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+}
+
+.trendingTab li{
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.trendingTab li p{
+    margin: 0;
+}
+
+.trendingTab li img{
+    align-self: center;
+}
+
+
 
 
 
